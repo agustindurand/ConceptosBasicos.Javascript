@@ -1,14 +1,11 @@
 
 
 // POSEE METODO // 
-function Tarjetas (marca, color, extension, monto) {
-    this.marca = marca; 
-    this.color = color;
-    this.extension = extension;
-    this.monto = monto; 
-    this.habilitado = function (nombre) {
-        console.log (this.nombre + "tiene que hacer el examen de habiliacion de la tarjeta, por el monto de: " + monto)
-    }
+function Persona (nombre, edad, calle) {
+    this.nombre = nombre;
+    this.edad = edad;
+    this.calle = calle;
+    this.hablar = function () {console.log ("Hola soy" + this.nombre) }
 }
-
-const tarjeta1 = new Tarjetas ("Visa", "Dorada", "Internacional", 1000000);
+const persona1 = new Persona ("Homero", 35, "Av SiempreViva");
+persona1.hablar ();
