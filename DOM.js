@@ -15,3 +15,21 @@ const mih1 = document.getElementById('uno'); //Si encuentra el elemento lo retor
 console.log(mih1); // Nodo de texto //
 console.log(mih1.textContent);
 mih1.textContent = "My Shopping card";
+
+// Se puede cambiar estilos de Css // 
+
+// mih1.style.color = "red"; // NO SE SUELE MODIFICAR EL ESTILO DE ESTA FORMA
+
+// Ver las clases de ELEMENTO //
+
+console.log(mih1.classList);
+
+// Agregar o Remover clase //
+
+/*
+
+mih1.classList.remove ("clase1"); 
+mih1.classList.add("clase2"); 
+
+*/
+
