@@ -1,0 +1,14 @@
+<!DOCTYPE html> /* El metodo addEventListener permite definir que evento escuchar sobre cualquier elemento seleccionado */ 
+<html>
+<head>
+</head>
+<body><h1 id="uno"> Titulo </h1>
+    <button id="botonPrincipal"> CLICK </button>
+<script>
+     let boton = document.getElementById("botonPrincipal");
+     boton.addEventListener("click", respuestaClick);
+      function respuestaClick () {
+        console.log ("respuesta evento");
+      } </script>
+</body>
+</html>
