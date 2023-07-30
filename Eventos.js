@@ -41,3 +41,16 @@ miInput.addEventListener ("keydown", ( ) => {
     console.log ("Ejecutaste evento");
 } );
  // KEYDOWN si presionas una tecla // 
+
+
+ // EVENTO SUBMIT // 
+ // EVENTO SUBMIT SE ACTIVA CUANDO EL FORMULARIO ES ENVIADO //
+
+ // la accion por defecto del boton submit es refrescar la pagina, eso se puede cambiar mediante el objeto event //
+
+ const ckeckbox = document.getElementById("id-checkbox");
+
+ checkbox.addEventListener("click", (e) => {
+     console.log(e);
+     e.preventDefault (); // detenes que la accion ocurra //
+ })
